@@ -98,3 +98,19 @@ ul li {
 .right {
     text-align: right;
 }
+
+/* Media Query */
+@media (max-width: 855px) {
+    span {
+        display: block;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    #main-div {
+        margin: 0;
+        border-radius: 0;
+    }
+}
